@@ -4,7 +4,9 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            // Create object and call method
+            NullOperations nullOps = new NullOperations();
+            nullOps.PerformNullChecks();
         }
     }
 }
